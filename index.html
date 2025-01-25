@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="bg">
+      <!-- container 1 -->
+      <div id="pageOne">
+        <div class="container generator">
+          <p class="akanTitle mb-5 no-wrap">Akan Name Generator</p>
+          <p class="description">
+            The Akan people of Ghana frequently name their children after the
+            day of the week they were born and the order in which they were
+            born. These Akan names signify the day one is born. According to
+            Akan tradition, each child is born with a name associated to their
+            soul. The day the child is born is therefore determined by the soul.
+            The well thought and organized naming system of the Akan's was
+            initiated by the ancestors and has attracted so many people's
+            attention as they desire to know more about these names. As a matter
+            of fact, it is possible to tell what led to someone's birth, the day
+            they were born and their rank among the siblings just by their
+            names.
+          </p>
+          <button
+            class="btn btn-outline-danger h5 btn-lg mt-5"
+            id="akangenerator"
+          >
+            Akan generator
+          </button>
+
+          <!-- <div style=" width: 200px; height: 200px; "class=" mx-auto">
+        <img src="./assets/jaffar.jpg" height="100" alt="">
+      </div> -->
+          <img src="./assets/svg1.svg" alt="" class="icon1" />
+        </div>
+      </div>
+
+      <img src="./assets/svg2.svg" class="icon2 img-responsive" alt="" />
+      <img src=" ./assets/svg4.svg" class="icon4 img-responsive" alt="" />
+      <img src=" ./assets/svg3.svg" alt="" class="icon3 img-responsive" />
+
+      <!-- container 3 -->
+      <div id="fullPageTwo">
+        <div class="container pageTwo">
+          <div class="pageTwoForm">
+            <form class="mx-5" id="pagetwo">
+              <div class="mb-3 birthdateText">
+                <label for="birthdate">Enter Birthdate</label>
+              </div>
+              <!-- <div> -->
+              <input
+                type="date"
+                id="dates"
+                class="form-control bg-transparent"
+              />
+              <!-- </div> -->
+              <div class="my-3">
+                <label for="Gender">Select your Gender</label>
+              </div>
+              <div class="male mb-4">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  name="gender"
+                  id="male"
+                  name="male"
+                  value="male"
+                />
+                MALE
+              </div>
+              <div class="female">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  name="gender"
+                  id="female"
+                  value="female"
+                />FEMALE
+              </div>
+              <div class="pageTwobtnP">
+                <input
+                  class="btn btn-outline-danger pageTwobtn mt-5"
+                  id="redirectSubmit"
+                  type="submit"
+                />
+              </div>
+            </form>
+
+            <div id="pageThree">
+              <div class="response mx-5" id="pageThree ">
+                <p class="h4">
+                  YOUR NAME WOULD BE : <span id="output">HANAN !!!</span>
+                </p>
+                <p id="nameDesc">
+                  In Arabic, the female name Hanan translates as "compassion",
+                  "tenderness", "benevolence" or "sweet". The term "hanan" means
+                  "merciful" in Hebrews. As a result, she rarely manages to
+                  build a busy social life. This intelligent woman often shows a
+                  predisposition for the strange and irrational. She likes to
+                  show her originality through her clothing choices and
+                  attitude.
+                </p>
+                <div class="backarrow">
+                  <img
+                    src="./assets/backarrow.svg"
+                    id="back"
+                    title="Go back"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <img
+              class="exit"
+              src="./assets/exit.svg"
+              title="Exit"
+              id="exit"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
