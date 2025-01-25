@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 70vw !important;
+}
+
+.akanTitle {
+  font-family: "Raleway";
+  font-size: xx-large;
+  font-weight: bold;
+  letter-spacing: 5px;
+  /* margin-bottom: 3.5rem; */
+}
+
+/* .generator p{
+  text-align: center;
+} */
+.description {
+  font-family: "Helvitca";
+  font-size: large;
+  /* margin-bottom: 3.5rem; */
+}
+
+.btn-outline-danger {
+  border-color: #d62828;
+  background-color: transparent;
+  width: 15rem;
+}
+
+.btn-outline-danger:hover {
+}
+
+.bg {
+  background: linear-gradient(
+    150deg,
+    rgba(244, 91, 15, 0.7) 19%,
+    rgba(248, 153, 19, 0.66) 63%,
+    rgba(252, 209, 22, 0.37) 100%
+  );
+}
+
+.icon4 {
+  height: 15%;
+  position: absolute;
+  bottom: 5vw;
+  right: 5vw;
+}
+
+.icon2 {
+  height: 12%;
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+}
+
+.icon3 {
+  height: 12%;
+  position: absolute;
+  bottom: 1vw;
+  left: 1vw;
+}
+
+.icon1 {
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pageTwo {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.pageTwoForm {
+  border: 1px solid #f45b0f;
+  position: absolute;
+  border-radius: 1rem;
+  width: 50vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    179.97deg,
+    rgba(255, 255, 255, 0.6) 0.03%,
+    rgba(255, 255, 255, 0.4) 99.97%
+  );
+}
+
+input[type="date"],
+input[type="date"]:focus {
+  border-color: #f45b0f !important;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.birthdateText {
+  letter-spacing: 2px;
+}
+
+.form-check-input[type="radio"] {
+  border: 2px solid #f45b0f;
+}
+
+.form-check-input:checked {
+  background-color: #f45b0f;
+  border-color: #f45b0f;
+}
+
+.response {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.backarrow img {
+  height: 7vh;
+  margin-top: 0.5rem;
+}
+
+.exit {
+  position: absolute;
+  top: 2vh;
+  right: 2vw;
+  height: 2vh;
+}
+
+.pageTwobtn {
+  width: 10rem;
+  /* align-self: center; */
+}
+
+.pageTwobtnDiv {
+  width: inherit;
+}
+
+.pageTwobtnP {
+  display: flex;
+  justify-content: center;
+}
+#exit,
+#back {
+  cursor: pointer;
+}
+#output {
+  color: #006b3f;
+}
+
+#pageThree,
+#fullPageTwo,
+#pagetwo {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .icon1 {
+    display: none;
+  }
+
+  .icon4 {
+    height: 7%;
+  }
+
+  .icon3,
+  .icon2 {
+    height: 5%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .icon1 {
+    height: 40%;
+  }
+}
+
+/* exception for iphone se screens */
+@media only screen and (width: 375px) and (height: 667px) {
+  .generator {
+    height: auto;
+  }
+}
