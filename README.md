@@ -33,6 +33,8 @@ Arnold Korir
  # contact infomation
  email: arnoldkorir201@gmail.com
  tel: +254 113963808
+ linkedln: https://www.linkedin.com/in/arnold-korir-858863299/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BkzronHU%2BTKCmrdw3TJAwDQ%3D%3D
+ insragram: https://www.instagram.com/ar.noldkorir/?hl=en
  
  # License
  MIT License
