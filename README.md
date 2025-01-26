@@ -26,9 +26,9 @@ Arnold Korir
        > Output: Error message requesting valid month 
 
  # Languages used 
- 1- html
- 2- css
- 3- js
+  html,
+  css,
+  js
 
  # contact infomation
  email: arnoldkorir201@gmail.com
